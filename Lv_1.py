@@ -41,6 +41,7 @@ def insert_success(folder_path):
         os.rename(random_file,suc_file)
         global end_name
         end_name = suc_name
+        # 作弊功能
         # print(f"已将文件 {random_file} 重命名为 {suc_name}")
 
 # 创建主窗口
