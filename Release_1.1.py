@@ -84,7 +84,7 @@ def insert_success(folder_path):
         os.rename(random_file,suc_file)
         global end_name
         end_name = suc_name
-        print(f"已将文件 {random_file} 重命名为 {suc_name}")
+        # print(f"已将文件 {random_file} 重命名为 {suc_name}")
 
 
 # 检查答案
